@@ -9,5 +9,5 @@ before_script:
 build:
   stage: build
   script:
-    - docker build -t registry.gitlab.com/arcadia-application/app2/app2 .
-    - docker push registry.gitlab.com/arcadia-application/app2/app2
+    - docker build -t registry.gitlab.com/arcadia-application/app2/app2:latest .
+    - docker push registry.gitlab.com/arcadia-application/app2/app2:latest
